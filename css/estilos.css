@@ -1,0 +1,28 @@
+/*reglas 
+selectores:
+-etiquetas: header, section, article, nav;
+-descendente: hijos;
+-id/clase: muy utilizado;
+
+declaraciones 
+propiesdades 
+valores*/
+
+/*selector de etiqueta*/
+header{
+	background: pink;
+	color :red;
+}
+
+/*selector descendente
+body header div nav ol li a{
+
+}
+*/
+
+/*selector de clase: incluye a todas las clases 
+referenciadas;
+.link */
+
+/*selector de id: es individual;
+#portafolio */
