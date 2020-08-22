@@ -24,6 +24,8 @@ h6 {
 	/*font-style: */
 }
 
+
+
 h1 {
 	font-size: 30px;
 	line-height: 1.5;
@@ -35,6 +37,15 @@ h1 {
 .project.details{
 
 	width: 500px;
+}
+
+.project.imageContainer{
+	width: 500px;
+}
+
+.hero{
+	width: 300px;
+
 }
 
 /*selector descendente
