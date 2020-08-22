@@ -28,10 +28,13 @@ h6 {
 
 h1 {
 	font-size: 30px;
+}
 	line-height: 1.5;
 	letter-spacing: -0.2px;
-	text-transform: uppercase;
-	text-decoration: dashed;
+	color:white;
+
+h1 strong{
+	color: #026fff;
 }
 
 .project.details{
@@ -44,7 +47,25 @@ h1 {
 }
 
 .hero{
-	width: 300px;
+	height: : 600px;
+	background-image: url("../images/hero.jpg");
+	background-color: #1b2127;
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+	background-position-x : right;
+}
+
+.header{
+	background-color: #1b2127;
+	color : white;
+
+}
+
+/* selector descendente */
+.header a{
+	
+	 color:white;
+	 text-decoration: none;
 
 }
 
