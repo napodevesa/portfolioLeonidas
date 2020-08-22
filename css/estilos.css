@@ -28,10 +28,11 @@ h6 {
 
 h1 {
 	font-size: 30px;
-}
 	line-height: 1.5;
 	letter-spacing: -0.2px;
 	color:white;
+	margin: 100px 520px 70px 30px;
+}
 
 h1 strong{
 	color: #026fff;
@@ -46,6 +47,10 @@ h1 strong{
 	background-position-x : right;
 }
 
+.portfolio{
+	background-color: azure;
+}
+
 .project{
 	
 	/*border-top-color: red;
@@ -54,6 +59,12 @@ h1 strong{
 */
 
 border: 1px solid grey;
+border-radius: 10px
+margin: 20px;
+margin-bottom: 15px;
+padding: 20px;
+background-color : white;
+display: flex;
 
 
 }
@@ -61,10 +72,13 @@ border: 1px solid grey;
 .project.details{
 
 	width: 500px;
+	margin: auto;
+	display: flex;
 }
 
 .project.imageContainer{
 	width: 500px;
+	display: inline-block;
 }
 
 
