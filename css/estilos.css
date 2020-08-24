@@ -340,7 +340,27 @@ figure {
   flex-wrap: inherit;
 }
 
+/*desktop first empezar desde el MD más grande*/
+
+@media  screen and (max-width: 1024px){
+	body{
+		border: 10px solid green;
+	}
+}
+
 @media  screen and (max-width: 768px){
+	body{
+		border: 10px solid green;
+	}
+}
+
+@media  screen and (max-width: 480px){
+	body{
+		border: 10px solid green;
+	}
+}
+
+@media  screen and (max-width: 320px){
 	body{
 		border: 10px solid green;
 	}
