@@ -389,7 +389,7 @@ figure {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: red;
+  background-color: rgba(0,0,0,.5);
   display: block;
   line-height: 40px;
   text-align: center;
@@ -397,6 +397,8 @@ figure {
   z-index: 4;
   left: 5px;
   top:5px;
+  color: white;
+
 }
 
 /*desktop first empezar desde el MD más grande*/
@@ -434,6 +436,10 @@ figure {
 
 @media  screen and (max-width: 767px){
 
+  .burger-button{
+    display: block;
+  }
+
 	
 		.header{
       display:block;
@@ -455,6 +461,19 @@ figure {
 
     .header .logo{
       text-align: center;
+    }
+
+    .menu{
+      position: fixed;
+      background:rgb(5,111,255,.9);
+      z-index:3;
+      top: 0;
+      left:0;
+      width: 100vw;
+      bottom:0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .project{
